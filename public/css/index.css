@@ -2,6 +2,10 @@
     background-color: #F4F2FD;
 }
 
+.text-white {
+    color: white;
+}
+
 .container {
     display: flex;
     gap: 16px;
@@ -22,6 +26,13 @@
 
 .card-basic li {
     list-style-type: none;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+}
+
+.card-basic li::before {
+    content: url('../icons/checked.png');
 }
 
 .card-pro {
