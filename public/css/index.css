@@ -15,55 +15,116 @@
 
 .card-basic {
     background-color: #FFFFFF;
-    border-radius: 5px;
-    box-shadow: 15px 25px 15px 15px #F4F2FD;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 0px #909090;
     padding: 16px;
+    text-align: center;
 }
 
 .card-basic:hover {
-    box-shadow: 0px 0px 50px 5px #000000;
+    box-shadow: 0px 0px 50px 0px #606060;
 }
 
 .card-basic li {
     list-style-type: none;
     display: flex;
     align-items: center;
-    font-size: x-large;
+    text-transform: capitalize;
+    font-size: large;
+}
+
+.font-list-elements-roboto-500 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .card-basic li::before {
-    content: url('../icons/checked.png');
+    content: url('../icons/check_circle_blue_16.png');
 }
 
 .card-pro {
     background-color: #212842;
-    border-radius: 5px;
+    border-radius: 10px;
     text-decoration-color: #FFFFFF;
-    box-shadow: 15px 25px 15px 15px #F4F2FD;
+    box-shadow: 0px 0px 50px 0px #E0E0E0;
     padding: 16px;
+    color: #FFFFFF;
+    text-align: center;
 }
 
 .card-pro:hover {
-    box-shadow: 0px 0px 50px 5px #000000;
+    box-shadow: 0px 0px 100px 0px #909090;
 }
 
 .card-pro li {
     list-style-type: none;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    text-transform: capitalize;
+}
+
+.card-pro li::before {
+    content: url('../icons/check_circle_white_16.png');
 }
 
 .card-premium {
     background-color: #FFFFFF;
-    border-radius: 5px;
-    box-shadow: 15px 25px 15px 15px #F4F2FD;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 0px #909090;
     padding: 16px;
-}
-
-.card-premium:hover {
-    box-shadow: 0px 0px 50px 5px #000000;
+    text-align: center;
 }
 
 .card-premium li {
     list-style-type: none;
+    display: flex;
+    align-items: center;
+
+    font-size: large;
+}
+
+.capitalise-first-letter-in-words {
+    text-transform: capitalize;
+}
+
+.card-premium li::before {
+    content: url('../icons/check_circle_blue_16.png');
+}
+
+.card-premium:hover {
+    box-shadow: 0px 0px 50px 0px #606060;
+}
+
+.card-premium li {
+    list-style-type: none;
+}
+
+.cta-button-blue {
+    background-color: #212842;
+    padding: 12px 16px;
+    border-radius: 32px;
+    border-color: #212842;
+    font-size: large;
+    text-transform: capitalize;
+
+}
+
+.cta-button-white {
+    background-color: #FFFFFF;
+    padding: 12px 16px;
+    border-radius: 32px;
+    border-color: #FFFFFF;
+    font-size: large;
+    text-transform: capitalize;
+}
+
+.card-heading-font {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 31px;
 }
 
 @media(max-width:768px) {

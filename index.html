@@ -3,42 +3,62 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>Basic Pricing Cards UI</title>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet" />
 		<link rel="stylesheet" href="public/css/index.css" />
 	</head>
 	<body class="background-biege">
 		<div class="container">
 			<div class="card-basic">
-				<h2>Free Plan</h2>
-				<h4>subtitle</h4>
-				<ul>
+				<h2 class="card-heading-font">Free Plan</h2>
+				<h4>For Personal</h4>
+				<ul class="font-list-elements-roboto-500">
 					<li>1 user(s)</li>
 					<li>2 web mail</li>
 					<li>responsive websites</li>
 					<li>Free SSL</li>
 				</ul>
-				<button>subscribe now</button>
+				<button class="text-white cta-button-blue">
+					subscribe now
+				</button>
 			</div>
-			<div class="card-pro text-white">
-				<h2>Basic Plan</h2>
-				<h4>subtitle</h4>
-				<ul>
+			<div class="card-pro">
+				<h2 class="card-heading-font">Basic Plan</h2>
+				<h4 class="capitalise-first-letter-in-words">
+					for business
+				</h4>
+				<ul class="font-list-elements-roboto-500">
 					<li>4 user(s)</li>
 					<li>5 web mail</li>
 					<li>responsive websites</li>
 					<li>Free SSL</li>
 				</ul>
-				<button>subscribe now</button>
+				<button class="cta-button-white">
+					subscribe now
+				</button>
 			</div>
 			<div class="card-premium">
-				<h2>Premium</h2>
-				<h4>subtitle</h4>
-				<ul>
+				<h2 class="card-heading-font">Premium</h2>
+				<h4 class="capitalise-first-letter-in-words">
+					for enterprise
+				</h4>
+				<ul class="font-list-elements-roboto-500">
 					<li>unlimited users</li>
 					<li>unlimited web mail</li>
 					<li>responsive websites</li>
 					<li>Free SSL + SEO</li>
 				</ul>
-				<button>subscribe now</button>
+				<button class="text-white cta-button-blue">
+					subscribe now
+				</button>
 			</div>
 		</div>
 	</body>
