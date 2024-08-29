@@ -33,12 +33,6 @@
     font-size: large;
 }
 
-.font-list-elements-roboto-500 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
 .card-basic li::before {
     content: url('../icons/check_circle_blue_16.png');
 }
@@ -85,10 +79,6 @@
     font-size: large;
 }
 
-.capitalise-first-letter-in-words {
-    text-transform: capitalize;
-}
-
 .card-premium li::before {
     content: url('../icons/check_circle_blue_16.png');
 }
@@ -125,6 +115,26 @@
     font-weight: 700;
     font-style: normal;
     font-size: 31px;
+}
+
+.capitalise-first-letter-in-words {
+    text-transform: capitalize;
+}
+
+.font-list-elements-roboto-500 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.font-sub-heading-noto-600 {
+    font-family: "Noto Sans Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 @media(max-width:768px) {
